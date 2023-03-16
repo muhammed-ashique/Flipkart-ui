@@ -31,7 +31,7 @@ class _bottomNavState extends State<bottomNav> {
             icon: Icon(
               Icons.home_outlined,
             ),
-            label: 'Home',
+            label: 'Home ',
           ),
           BottomNavigationBarItem(
             icon: Icon(
