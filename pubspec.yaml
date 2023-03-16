@@ -1,0 +1,182 @@
+name: flipkart_ui
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  banner_carousel: ^1.2.1
+  bottom_navigation_bar: ^1.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    
+    - lib/assets/images/flipkart-logo-39903.png
+    - lib/assets/images/pngegg.png
+    - lib/assets/images/rupees.png
+    # carousel images
+    - lib/assets/images/poster 1.webp
+    - lib/assets/images/download (3).jpeg
+    - lib/assets/images/images.jpeg
+    # //////////
+    - lib/assets/images/home page row scroll/icons8-expensive-48.png
+    - lib/assets/images/home page row scroll/icons8-voucher-64.png
+    - lib/assets/images/home page row scroll/icons8-plus-48.png
+    - lib/assets/images/home page row scroll/icons8-people-48.png
+    - lib/assets/images/home page row scroll/icons8-credit-card-48.png
+    - lib/assets/images/home page row scroll/icons8-youtube-48.png
+    - lib/assets/images/home page row scroll/icons8-retro-tv-48.png
+    - lib/assets/images/home card images/download (1).jpg
+    - lib/assets/images/home card images/images.jpg
+    - lib/assets/images/home card images/61UzKpdkYfL._SL1500_ (1).jpg
+    # recently viewed
+    - lib/assets/images/recently viewed/download (1) (1).jpg
+    - lib/assets/images/recently viewed/download (2).jpg
+    - lib/assets/images/recently viewed/images (3).jpg
+
+    # Catogory area images
+    - lib/assets/images/Catogory images/icons8-discount-48.png
+    - lib/assets/images/Catogory images/PngItem_5189624.jpg
+    - lib/assets/images/Catogory images/iphones.jpg
+    - lib/assets/images/Catogory images/fashion.jpg
+    - lib/assets/images/Catogory images/laptop.jpg
+    - lib/assets/images/Catogory images/appliances.jpg
+    - lib/assets/images/Catogory images/perfumes.jpg
+    - lib/assets/images/Catogory images/tv.jpg
+    - lib/assets/images/Catogory images/teddy.jpg
+    - lib/assets/images/Catogory images/bed.jpg
+    - lib/assets/images/Catogory images/plane.jpg
+    - lib/assets/images/Catogory images/shield.jpg
+    - lib/assets/images/Catogory images/sports.jpg
+    - lib/assets/images/Catogory images/nutritions.jpg
+    - lib/assets/images/Catogory images/cars.jpg
+    - lib/assets/images/Catogory images/gift card.jpg
+    - lib/assets/images/Catogory images/medicines.jpg
+    - lib/assets/images/Catogory images/servieces.jpg
+    - lib/assets/images/Catogory images/sell back.jpg
+
+#    More on Flipkart
+    - lib/assets/images/home page row scroll/whats new.png
+    - lib/assets/images/home page row scroll/Firedrops.png
+    - lib/assets/images/home page row scroll/camera.png
+    - lib/assets/images/home page row scroll/games (2).png
+    - lib/assets/images/home page row scroll/seller.png
+
+    # account screen
+    - lib/assets/images/accout screen/Flipkart-Logo.wine (2).jpg
+    - lib/assets/images/accout screen/greater than.png
+    - lib/assets/images/accout screen/coin.jpg
+
+    # accout section first row
+    - lib/assets/images/accout screen/first row/box.png
+    - lib/assets/images/accout screen/first row/heart.png
+    - lib/assets/images/accout screen/first row/gift box.png
+    - lib/assets/images/accout screen/first row/headset.png
+
+    # account second row
+    - lib/assets/images/accout screen/second row/calender.png
+    - lib/assets/images/accout screen/second row/icons8-card-24.png
+    - lib/assets/images/accout screen/second row/greater than (2).png
+
+    # account third row
+    - lib/assets/images/accout screen/third row/plus.png
+    - lib/assets/images/accout screen/third row/profile.png
+    - lib/assets/images/accout screen/third row/wallet.png
+    - lib/assets/images/accout screen/third row/place.png
+    - lib/assets/images/accout screen/third row/languages.png
+    - lib/assets/images/accout screen/third row/notification.png
+
+
+    #  forth row 
+    - lib/assets/images/accout screen/forth row/review.png
+    - lib/assets/images/accout screen/forth row/icons8-ask-question-24.png
+
+    # Cart Screen Images
+    - lib/assets/images/Cart screen/headset.jpg
+    - lib/assets/images/Cart screen/5-stars.png
+    - lib/assets/images/Cart screen/flipkart__1_-removebg-preview.png
+    - lib/assets/images/Cart screen/icons8-more-than-24.png
+    - lib/assets/images/Cart screen/save.png
+    - lib/assets/images/Cart screen/delete.png
+    - lib/assets/images/Cart screen/icons8-protect-26.png
+  
+    
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
